@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DDEBA191B8F5241006D4010 /* questionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEBA181B8F5241006D4010 /* questionViewCell.swift */; };
 		5DFE7E2F1B8EA13B0010DB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E2E1B8EA13B0010DB11 /* AppDelegate.swift */; };
 		5DFE7E311B8EA13B0010DB11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E301B8EA13B0010DB11 /* FirstViewController.swift */; };
 		5DFE7E331B8EA13B0010DB11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E321B8EA13B0010DB11 /* SecondViewController.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		3B0C2B42955B43480020A0BF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDEBA181B8F5241006D4010 /* questionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = questionViewCell.swift; path = ../../ElevenCrack/ElevenCrack/questionViewCell.swift; sourceTree = "<group>"; };
 		5DFE7E291B8EA13B0010DB11 /* SwiftTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFE7E2D1B8EA13B0010DB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFE7E2E1B8EA13B0010DB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftTrivia/AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				5DFE7E541B8EA3A90010DB11 /* Player.swift */,
 				5DFE7E561B8EA7D50010DB11 /* QuestionsandAnswers.swift */,
 				5DFE7E581B8EA8100010DB11 /* Game.swift */,
+				5DDEBA181B8F5241006D4010 /* questionViewCell.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				5DFE7E571B8EA7D50010DB11 /* QuestionsandAnswers.swift in Sources */,
 				5DFE7E591B8EA8100010DB11 /* Game.swift in Sources */,
 				5DFE7E2F1B8EA13B0010DB11 /* AppDelegate.swift in Sources */,
+				5DDEBA191B8F5241006D4010 /* questionViewCell.swift in Sources */,
 				5DFE7E521B8EA3190010DB11 /* SignUpViewController.swift in Sources */,
 				5DFE7E551B8EA3A90010DB11 /* Player.swift in Sources */,
 				5DFE7E311B8EA13B0010DB11 /* FirstViewController.swift in Sources */,
