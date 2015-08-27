@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DDEBA191B8F5241006D4010 /* questionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEBA181B8F5241006D4010 /* questionViewCell.swift */; };
+		5DDEBA1C1B8F5C01006D4010 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEBA1B1B8F5C01006D4010 /* GameViewController.swift */; };
+		5DDEBA1E1B8F5CD3006D4010 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEBA1D1B8F5CD3006D4010 /* WelcomeViewController.swift */; };
+		5DDEBA201B8F5DC6006D4010 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEBA1F1B8F5DC6006D4010 /* Player.swift */; };
 		5DFE7E2F1B8EA13B0010DB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E2E1B8EA13B0010DB11 /* AppDelegate.swift */; };
-		5DFE7E311B8EA13B0010DB11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E301B8EA13B0010DB11 /* FirstViewController.swift */; };
-		5DFE7E331B8EA13B0010DB11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E321B8EA13B0010DB11 /* SecondViewController.swift */; };
 		5DFE7E361B8EA13B0010DB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE7E341B8EA13B0010DB11 /* Main.storyboard */; };
 		5DFE7E381B8EA13B0010DB11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE7E371B8EA13B0010DB11 /* Images.xcassets */; };
 		5DFE7E3B1B8EA13B0010DB11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE7E391B8EA13B0010DB11 /* LaunchScreen.xib */; };
 		5DFE7E471B8EA13B0010DB11 /* SwiftTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E461B8EA13B0010DB11 /* SwiftTriviaTests.swift */; };
 		5DFE7E521B8EA3190010DB11 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E511B8EA3190010DB11 /* SignUpViewController.swift */; };
-		5DFE7E551B8EA3A90010DB11 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E541B8EA3A90010DB11 /* Player.swift */; };
 		5DFE7E571B8EA7D50010DB11 /* QuestionsandAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E561B8EA7D50010DB11 /* QuestionsandAnswers.swift */; };
 		5DFE7E591B8EA8100010DB11 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE7E581B8EA8100010DB11 /* Game.swift */; };
 		B1DE046340A0E161C1ECD7DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0C2B42955B43480020A0BF /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -34,12 +33,12 @@
 
 /* Begin PBXFileReference section */
 		3B0C2B42955B43480020A0BF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DDEBA181B8F5241006D4010 /* questionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = questionViewCell.swift; path = ../../ElevenCrack/ElevenCrack/questionViewCell.swift; sourceTree = "<group>"; };
+		5DDEBA1B1B8F5C01006D4010 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5DDEBA1D1B8F5CD3006D4010 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5DDEBA1F1B8F5DC6006D4010 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5DFE7E291B8EA13B0010DB11 /* SwiftTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFE7E2D1B8EA13B0010DB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFE7E2E1B8EA13B0010DB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftTrivia/AppDelegate.swift; sourceTree = "<group>"; };
-		5DFE7E301B8EA13B0010DB11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5DFE7E321B8EA13B0010DB11 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5DFE7E351B8EA13B0010DB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DFE7E371B8EA13B0010DB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5DFE7E3A1B8EA13B0010DB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,7 +46,6 @@
 		5DFE7E451B8EA13B0010DB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DFE7E461B8EA13B0010DB11 /* SwiftTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTriviaTests.swift; sourceTree = "<group>"; };
 		5DFE7E511B8EA3190010DB11 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		5DFE7E541B8EA3A90010DB11 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5DFE7E561B8EA7D50010DB11 /* QuestionsandAnswers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsandAnswers.swift; sourceTree = "<group>"; };
 		5DFE7E581B8EA8100010DB11 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		C53A41C606F558F62DC6FB32 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +97,6 @@
 		5DFE7E2B1B8EA13B0010DB11 /* SwiftTrivia */ = {
 			isa = PBXGroup;
 			children = (
-				5DFE7E301B8EA13B0010DB11 /* FirstViewController.swift */,
-				5DFE7E321B8EA13B0010DB11 /* SecondViewController.swift */,
 				5DFE7E341B8EA13B0010DB11 /* Main.storyboard */,
 				5DFE7E371B8EA13B0010DB11 /* Images.xcassets */,
 				5DFE7E391B8EA13B0010DB11 /* LaunchScreen.xib */,
@@ -138,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				5DFE7E511B8EA3190010DB11 /* SignUpViewController.swift */,
+				5DDEBA1B1B8F5C01006D4010 /* GameViewController.swift */,
+				5DDEBA1D1B8F5CD3006D4010 /* WelcomeViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -145,10 +143,9 @@
 		5DFE7E531B8EA3850010DB11 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5DFE7E541B8EA3A90010DB11 /* Player.swift */,
 				5DFE7E561B8EA7D50010DB11 /* QuestionsandAnswers.swift */,
 				5DFE7E581B8EA8100010DB11 /* Game.swift */,
-				5DDEBA181B8F5241006D4010 /* questionViewCell.swift */,
+				5DDEBA1F1B8F5DC6006D4010 /* Player.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -321,14 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DFE7E331B8EA13B0010DB11 /* SecondViewController.swift in Sources */,
 				5DFE7E571B8EA7D50010DB11 /* QuestionsandAnswers.swift in Sources */,
 				5DFE7E591B8EA8100010DB11 /* Game.swift in Sources */,
 				5DFE7E2F1B8EA13B0010DB11 /* AppDelegate.swift in Sources */,
-				5DDEBA191B8F5241006D4010 /* questionViewCell.swift in Sources */,
+				5DDEBA1E1B8F5CD3006D4010 /* WelcomeViewController.swift in Sources */,
+				5DDEBA201B8F5DC6006D4010 /* Player.swift in Sources */,
+				5DDEBA1C1B8F5C01006D4010 /* GameViewController.swift in Sources */,
 				5DFE7E521B8EA3190010DB11 /* SignUpViewController.swift in Sources */,
-				5DFE7E551B8EA3A90010DB11 /* Player.swift in Sources */,
-				5DFE7E311B8EA13B0010DB11 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
